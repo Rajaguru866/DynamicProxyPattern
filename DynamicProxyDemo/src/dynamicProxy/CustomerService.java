@@ -13,5 +13,10 @@ public class CustomerService implements Customer{
 		System.out.println("Real Customer - " + this.customerName);
 	}
 	
+	public String getClassName()
+	{
+		return this.getClass().getSimpleName();
+	}
+	
 
 }
